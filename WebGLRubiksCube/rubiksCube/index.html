@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <!-- Middleware -->
+    <script src="middleware/gl-matrix-min.js"></script>
+    <!-- <script src="middleware/dat.gui.min.js"></script> -->
+    <script src="src/utils/webGLBoilerplateUtils.js"></script>
+    
+    <!-- ------------- Source ------------- -->
+    <!-- Utils -->
+    <script src="src/utils/webGLBoilerplateUtils.js"></script>
+    <script src="src/utils/mathUtils.js"></script>
+    <script src="src/utils/plyParser.js"></script>
+    <script src="src/utils/aabbRayIntersection.js"></script>
+    <script src="src/utils/rayCubieSideIntersection.js"></script>
+    <script src="src/utils/cameraRay.js"></script>
+    <script src="src/utils/rotateCube.js"></script>
+    <!-- Preload -->
+    <script src="src/preload/settings.js"></script>
+    <!-- Managers -->
+    <script src="src/managers/processManager.js"></script>
+    <script src="src/managers/inputManager.js"></script>
+    <!-- Rendering -->
+    <script src="src/rendering/models/highPolyCubie.js"></script>
+    <script src="src/rendering/models/lowPolyCubie.js"></script>
+    <script src="src/rendering/shaders/cubieShaderDiffSpec.js"></script>
+    <script src="src/rendering/shaders/cubieShaderFirst.js"></script>
+    <script src="src/rendering/renderer.js"></script>
+    <script src="src/rendering/rubiksCubeRenderable.js"></script>
+    <!-- Main Entry Point -->
+    <script src="src/main.js" defer></script>
+</head>
+
+<body>
+    <canvas id="cc"></canvas>
+</body>
+</body>
+</html>
